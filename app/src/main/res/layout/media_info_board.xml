@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@color/ijk_transparent_dark"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/media_title_txt"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textSize="16sp"
+        android:textColor="@color/lightWhite"
+        android:text="飞翔的魔女"/>
+
+    <TextView
+        android:id="@+id/phone_time_txt"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textColor="@color/lightWhite"
+        android:text="02:42"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="48dp"
+        android:gravity="right">
+
+        <ImageButton
+            android:id="@+id/media_info_ib"
+            style="@style/MediaButtonCompat"
+            android:src="@drawable/ic_media_info"/>
+    </LinearLayout>
+
+</LinearLayout>

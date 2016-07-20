@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/navigation_category"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/player_list" />
+        <item
+            android:id="@+id/menu_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="@string/player_history" />
+        <item
+            android:id="@+id/menu_fill_fan"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/fill_fan" />
+        <item
+            android:id="@+id/menu_favorite"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/favorite" />
+        <item
+            android:id="@+id/menu_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/setting" />
+    </group>
+
+</menu>
